@@ -1,0 +1,13 @@
+---
+applications:
+  - name: nodejs-weather-demo
+    instances: 1
+    disk_quota: 256M
+    memory: 25M
+    health-check-type: process
+    buildpacks:
+      - nodejs_buildpack
+    random-route: true
+    services:
+      - openweathermap
+      - rabbitmq
