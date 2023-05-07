@@ -7,7 +7,7 @@
   },
   "dependencies": {
     "amqplib": "^0.5.5",
-    "cfenv": "^1.2.2",
+    "cfenv": "^1.2.4",
     "node-cron": "^2.0.3",
     "openweathermap-node": "^1.1.2"
   },
