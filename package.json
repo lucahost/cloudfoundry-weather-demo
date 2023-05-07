@@ -6,7 +6,7 @@
     "start": "node src/app.js"
   },
   "dependencies": {
-    "amqplib": "^0.5.5",
+    "amqplib": "^0.10.3",
     "cfenv": "^1.2.2",
     "node-cron": "^2.0.3",
     "openweathermap-node": "^1.1.2"
